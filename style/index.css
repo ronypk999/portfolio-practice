@@ -40,7 +40,7 @@ header{
     font-weight: 700;
     color: var(--White-Color, #FFF);
     font-size: 20px;
-    
+    cursor: pointer;
 }
 
 .btn-primary-outline{
@@ -51,15 +51,19 @@ header{
     font-weight: 700;
     color: #FD6E0A;
     font-size: 20px;
-    
+    cursor: pointer;
 }
 
 .nav-items li{
     list-style: none;
-    color: var(--Dark-02, #474747);
     font-weight: 400;
     font-size: 20px;
 }
+.nav-items > li > a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+
 
 /* Banner style */
 
